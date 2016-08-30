@@ -1,6 +1,7 @@
 /**
 *	@file Test.h
-* 	@author John Gibbons
+* 	@author Sam Lopez:wq
+*
 *	@date 2015.11.17
 *
 */
