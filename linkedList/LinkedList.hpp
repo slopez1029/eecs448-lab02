@@ -29,23 +29,28 @@ bool LinkedList<T>::isEmpty() const
 template <typename T>
 int LinkedList<T>::size() const
 {
-	/** TODO 
-		Fix this method
-	*/
-	return(0);
+        return m_size;
 }
 
 template <typename T>
 bool LinkedList<T>::search(T value) const
 {
-	Node<T>* temp = m_front;
+        /*Node<T>* temp = m_front;
 	bool isFound = false;
 
-	/** TODO 
-		Fix this method
-	*/
+        while((temp->getNext() != nullptr) && (m_size!= 0))
+        {
+            if(temp->getValue() == value)
+            {
+                isFound = true;
+            }
+            else
+            {
+                temp = temp->getNext();
+            }
+        }
 
-	return(isFound);
+        return(isFound);*/
 }
 
 template <typename T>
@@ -99,15 +104,28 @@ void LinkedList<T>::addFront(T value)
 template <typename T>
 bool LinkedList<T>::removeBack()
 {
-	Node<T>* lastNode = nullptr;
-	Node<T>* secondintoLast = nullptr;
-	bool isRemoved = false;
+    /*Node<T>* lastNode = m_front;
+    Node<T>* secondintoLast = nullptr;
 
-	/** TODO 
-		Fix this method
-	*/
+    if(!isEmpty())
+    {
+        while(lastNode->getNext()!=nullptr)
+        {
+            secondintoLast = lastNode;
+            lastNode = lastNode->getNext();
+        }
 
-	return(isRemoved);
+        delete lastNode;
+        m_size--;
+        secondintoLast.setNext(nullptr);
+
+    }
+
+    bool isRemoved = false;
+
+
+
+        return(isRemoved);*/
 }	
 
 template <typename T>

@@ -1,6 +1,6 @@
 /**
 *	@file Test.h
-* 	@author Sam Lopez:wq
+* 	@author Sam Lopez:
 *
 *	@date 2015.11.17
 *
